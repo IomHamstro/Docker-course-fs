@@ -1,0 +1,11 @@
+server:
+    port: 8081
+
+upload:
+    path: /uploads
+
+spring:
+    servlet:
+        multipart:
+            max-file-size: 700KB
+            max-request-size: 700KB
